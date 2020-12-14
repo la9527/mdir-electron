@@ -1,0 +1,24 @@
+{
+  "name": "mdir-electron",
+  "productName": "mdir-electron",
+  "version": "0.1.0",
+  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "main": "./main.prod.js",
+  "author": "La Byoungyoung <la9527@daum.net>",
+  "bugs": {
+    "url": "https://github.com/la9527/mdir.js/issues",
+    "email": "la9527@daum.net"
+  },
+  "contributors": [
+    {
+      "name": "La Byoungyoung",
+      "email": "la9527@daum.net"
+    }
+  ],
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "BSD3",
+  "dependencies": {}
+}
